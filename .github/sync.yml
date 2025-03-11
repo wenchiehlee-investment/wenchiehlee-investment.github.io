@@ -1,0 +1,14 @@
+#.github/sync.yml
+group:
+  # 1st group for sync-up
+  - files:
+      - source: .gitignore
+        dest:   .gitignore
+      - source: .github/workflows/sync-up.yml
+        dest:   .github/workflows/sync-up.yml
+      - source: .github/sync.yml
+        dest:   .github/sync.yml
+    repos: |
+        wenchiehlee-investment/Python-Actions.ModelsPricePredict-Claude
+        wenchiehlee-investment/wenchiehlee-investment.github.io
+        wenchiehlee-investment/Python-Actions.ModelsPriceAnalysis
