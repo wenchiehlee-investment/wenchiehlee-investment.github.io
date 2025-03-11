@@ -12,3 +12,14 @@ group:
         wenchiehlee-investment/Python-Actions.ModelsPricePredict-Claude
         wenchiehlee-investment/wenchiehlee-investment.github.io
         wenchiehlee-investment/Python-Actions.ModelsPriceAnalysis
+  # 2nd group for sync-up
+  - files:
+      - source: ModelsPricePredict.plantuml
+        dest:   ModelsPricePredict.plantuml
+      - source: TestModelsPricePredict.plantuml
+        dest:   TestModelsPricePredict.plantuml
+      - source: overview.plantuml
+        dest:   overview.plantuml
+    repos: |
+        wenchiehlee-investment/Python-Actions.ModelsPricePredict-Claude
+        wenchiehlee-investment/GoPublic
