@@ -23,3 +23,10 @@ group:
     repos: |
         wenchiehlee-investment/Python-Actions.ModelsPricePredict-Claude
         wenchiehlee-investment/GoPublic
+  # 3rd group for sync-up
+  - files:
+      - source: DownloadCSV.py
+        dest:   DownloadCSV.py
+    repos: |
+        wenchiehlee-investment/Python-Actions.ModelsPricePredict-Claude
+        wenchiehlee-investment/Python-Actions.ModelsPriceAnalysis
