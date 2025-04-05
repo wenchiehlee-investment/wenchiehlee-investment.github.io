@@ -30,3 +30,10 @@ group:
     repos: |
         wenchiehlee-investment/Python-Actions.ModelsPricePredict-Claude
         wenchiehlee-investment/Python-Actions.ModelsPriceAnalysis
+  # 4th group for sync-up
+  - files:
+      - source: stock_industry_mapping.csv
+        dest:   stock_industry_mapping.csv
+    repos: |
+        wenchiehlee-investment/Python-Actions.ModelsPriceAnalysis
+        wenchiehlee-investment/GoPublic
